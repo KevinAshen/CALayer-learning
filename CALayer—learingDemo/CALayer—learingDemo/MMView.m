@@ -19,6 +19,7 @@
     return self;
 }
 
+
 + (Class)layerClass{
     NSLog(@">>>>>>>>>>> MMView layerClass");
     return [MMLayer class];
